@@ -8,7 +8,7 @@ bool continuar = true;
 while (continuar)
 {
     Console.WriteLine("Bienvenido Aqui puede calcular sus Notas");
-    Console.WriteLine("/*/*/*/*/*/*/*/Menu/*/*/*/*/*/*/*/*/*/*/*/");
+    Console.WriteLine("                 Menu                    );
     Console.WriteLine("pulse 1 para calcular Notas");
     Console.WriteLine("pulse 2 para listar notas");
 
