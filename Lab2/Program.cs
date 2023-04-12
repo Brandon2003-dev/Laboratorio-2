@@ -36,8 +36,8 @@ while (continuar)
             
             CrudNota.CalcularResultado(Nota);
             CrudNota.AgregarNota(Nota);
-            Console.WriteLine($"su resultado es {Nota.Resultado}");
-            Console.WriteLine("Sus notas se han guardado");
+            Console.WriteLine($"Tu resultado es {Nota.Resultado}");
+            Console.WriteLine("Tus notas se han guardado, con exito");
 
 
 
@@ -56,7 +56,7 @@ while (continuar)
     }
 
 
-    Console.WriteLine("desea continuar? /n presione S para si y N para No");
+    Console.WriteLine("¿Desea continuar? /n presione S para si y N para No");
     var cont = Console.ReadLine();
     if (cont.Equals("N"))
     {
