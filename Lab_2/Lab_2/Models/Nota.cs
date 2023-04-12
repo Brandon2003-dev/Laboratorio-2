@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Laboratorio_2.Models;
+namespace Lab_2.Models;
 
 public partial class Nota
 {
