@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Labooratorio_2.Models;
+namespace Lab_2.Models;
 
 public partial class NotaEstudianteContext : DbContext
 {
