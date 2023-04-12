@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Laboratorio_2.Models;
+using Lab_2.Models;
 
-namespace Laboratorio_2.DAO
+namespace Lab_2.DAO
 {
     public class CrudNota
     {
