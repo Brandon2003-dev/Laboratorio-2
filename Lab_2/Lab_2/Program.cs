@@ -1,5 +1,5 @@
-﻿using Laboratorio_2.DAO;
-using Laboratorio_2.Models;
+﻿using Lab_2.DAO;
+using Lab_2.Models;
 
 CrudNota CrudNota = new CrudNota();
 Nota Nota = new Nota();
@@ -36,7 +36,7 @@ while (continuar)
             
             CrudNota.CalcularResultado(Nota);
             CrudNota.AgregarNota(Nota);
-            Console.WriteLine($"su resultado es {Nota.Resultado}");
+            Console.WriteLine($"Tu resultado es {Nota.Resultado}");
             Console.WriteLine("Sus notas se han guardado");
 
 
@@ -45,7 +45,7 @@ while (continuar)
             break;   
 
             case 2:
-            Console.WriteLine("Lista de Notas");
+            Console.WriteLine("Lista de las Notas");
             var ListarNotas = CrudNota.ListarNotas();
             foreach (var iteracionNota in ListarNotas)
             {
